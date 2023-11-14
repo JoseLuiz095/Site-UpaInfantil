@@ -1,0 +1,534 @@
+{
+  "_id": "6552b6fcecc914091d23d393",
+  "version": 2.1,
+  "name": " Protótipo Upa infantil",
+  "description": "",
+  "screenSize": {
+    "w": 375,
+    "h": 812
+  },
+  "type": "smartphone",
+  "screens": {
+    "s10000_13356": {
+      "x": 1425,
+      "y": 1046,
+      "h": 812,
+      "w": 375,
+      "name": "Screen",
+      "type": "Screen",
+      "style": {
+        "background": "#ffffff"
+      },
+      "min": {
+        "w": 375,
+        "h": 812
+      },
+      "has": {
+        "image": true
+      },
+      "props": {
+        "start": true
+      },
+      "children": [
+        "w10001_73895",
+        "w10002_56115",
+        "w10004_65841",
+        "w10003_14812",
+        "w10005_30308",
+        "w10006_19781",
+        "w10007_51211",
+        "w10009_71944"
+      ],
+      "id": "s10000_13356"
+    },
+    "s10008_94419": {
+      "x": 2031,
+      "y": 1013,
+      "h": 812,
+      "w": 375,
+      "name": "Screen 1",
+      "type": "Screen",
+      "style": {
+        "background": "#ffffff"
+      },
+      "min": {
+        "w": 375,
+        "h": 812
+      },
+      "has": {
+        "image": true
+      },
+      "props": {
+        "start": false
+      },
+      "children": [
+        "w10010_78657",
+        "w10012_36319",
+        "w10013_15576"
+      ],
+      "id": "s10008_94419"
+    }
+  },
+  "widgets": {
+    "w10001_73895": {
+      "type": "Label",
+      "name": "Label",
+      "x": 1472,
+      "y": 1075,
+      "w": 165,
+      "h": 20,
+      "z": 1,
+      "props": {
+        "label": "Upa Infantil&nbsp;"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": "Auto",
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "textShadow": null
+      },
+      "id": "w10001_73895",
+      "created": 1699921690661
+    },
+    "w10002_56115": {
+      "id": "w10002_56115",
+      "type": "Button",
+      "name": "Button",
+      "props": {
+        "label": "Upa mais Proxima"
+      },
+      "x": 1653,
+      "w": 133,
+      "h": 26,
+      "y": 1069,
+      "has": {
+        "onclick": true,
+        "label": true,
+        "padding": true,
+        "border": true,
+        "backgroundColor": true
+      },
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#346187",
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "paddingLeft": 7,
+        "paddingRight": 7,
+        "borderTopRightRadius": 3,
+        "borderTopLeftRadius": 3,
+        "borderBottomRightRadius": 3,
+        "borderBottomLeftRadius": 3,
+        "borderTopWidth": 1,
+        "borderBottomWidth": 1,
+        "borderRightWidth": 1,
+        "borderLeftWidth": 1,
+        "background": "#f7f7f7",
+        "borderTopColor": "#ababab",
+        "borderBottomColor": "#ababab",
+        "borderRightColor": "#ababab",
+        "borderLeftColor": "#ababab",
+        "verticalAlign": "middle"
+      },
+      "hover": {
+        "background": "#ebebeb",
+        "color": "#333333"
+      },
+      "z": 2,
+      "created": 1699921707969,
+      "modified": 1699921730724
+    },
+    "w10003_14812": {
+      "id": "w10003_14812",
+      "type": "Image",
+      "name": "Image",
+      "x": 1451,
+      "y": 1136,
+      "w": 323,
+      "h": 213,
+      "z": 3,
+      "props": {},
+      "has": {
+        "onclick": true,
+        "backgroundImage": true,
+        "borderRadius": true
+      },
+      "actions": {},
+      "style": {
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "backgroundImage": null
+      },
+      "created": 1699921749969,
+      "modified": 1699921789293
+    },
+    "w10004_65841": {
+      "type": "Image",
+      "name": "img-quem-somos.jpg",
+      "x": 1451,
+      "y": 1136,
+      "w": 323,
+      "h": 213,
+      "z": 5,
+      "props": {},
+      "has": {
+        "image": true,
+        "onclick": true,
+        "backgroundImage": true,
+        "border": true
+      },
+      "actions": {},
+      "style": {
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "backgroundImage": {
+          "name": "img-quem-somos.jpg",
+          "url": "image0.jpg",
+          "w": 750,
+          "h": 497
+        }
+      },
+      "id": "w10004_65841",
+      "created": 1699921769938,
+      "modified": 1699921786309
+    },
+    "w10005_30308": {
+      "type": "Label",
+      "name": "Label 1",
+      "x": 1521,
+      "y": 1390,
+      "w": 206,
+      "h": 20,
+      "z": 6,
+      "props": {
+        "label": "Conheça a Upa Infantil"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": "Auto",
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "textShadow": null
+      },
+      "id": "w10005_30308",
+      "created": 1699921807386,
+      "modified": 1699921812588
+    },
+    "w10006_19781": {
+      "type": "Label",
+      "name": "Label 2",
+      "x": 1451,
+      "y": 1431,
+      "w": 322,
+      "h": 103,
+      "z": 7,
+      "props": {
+        "label": "A UPA Infantil é um centro de saúde dedicado às crianças, oferecendo atendimento médico de alta qualidade em situações de emergência.\n&nbsp;Contamos com uma equipe especializada de pediatras e enfermeiros para cuidar dos pequenos heróis em momentos críticos.\nNosso objetivo é garantir o rápido restabelecimento da saúde das crianças, com todo o carinho e atenção que elas merecem. \nEstamos sempre à disposição, 24 horas por dia, 7 dias por semana, para cuidar do bem-estar dos nossos pequenos pacientes. \nNa UPA Infantil, a saúde e o sorriso das crianças vêm em primeiro lugar!",
+        "resize": {
+          "right": false,
+          "up": false,
+          "left": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": true
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": 12,
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "textShadow": null
+      },
+      "id": "w10006_19781",
+      "created": 1699921830076,
+      "modified": 1699922009349
+    },
+    "w10007_51211": {
+      "id": "w10007_51211",
+      "type": "Button",
+      "name": "Button 1",
+      "x": 1567,
+      "y": 1648,
+      "w": 90,
+      "h": 36,
+      "style": {
+        "fontFamily": "Roboto, sans-serif",
+        "borderBottomColor": "#000000",
+        "borderTopColor": "#000000",
+        "borderLeftColor": "#000000",
+        "borderRightColor": "#000000",
+        "borderBottomLeftRadius": 2,
+        "borderTopLeftRadius": 2,
+        "borderBottomRightRadius": 2,
+        "borderTopRightRadius": 2,
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 0,
+        "textAlign": "center",
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "500",
+        "letterSpacing": 0,
+        "lineHeight": 2.571,
+        "color": "#ffffff",
+        "background": "#3f51b5",
+        "textDecoration": "none",
+        "boxShadow": {
+          "v": 2,
+          "h": 0,
+          "b": 2,
+          "s": 0,
+          "c": "rgba(0,0,0,0.24)",
+          "i": false
+        }
+      },
+      "props": {
+        "label": "Saiba_Mais mais"
+      },
+      "has": {
+        "onclick": true,
+        "label": true,
+        "padding": false,
+        "backgroundColor": true,
+        "border": true
+      },
+      "z": 8,
+      "created": 1699922033506,
+      "modified": 1699922053909
+    },
+    "w10009_71944": {
+      "type": "Button",
+      "name": "Box",
+      "x": 1797,
+      "y": 1076,
+      "w": 234,
+      "h": 1,
+      "z": 9,
+      "props": {
+        "label": ""
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "label": true,
+        "padding": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontSize": 14,
+        "fontFamily": "Roboto, sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1.4,
+        "color": "#ffffff",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#3f51b5",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "textShadow": null
+      },
+      "id": "w10009_71944",
+      "created": 1699922078596
+    },
+    "w10010_78657": {
+      "type": "Label",
+      "name": "Label",
+      "x": 2061,
+      "y": 1046,
+      "w": 422,
+      "h": 41,
+      "z": 10,
+      "props": {
+        "label": "Upa mais proxima\r\n"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": "Auto",
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "textShadow": null
+      },
+      "id": "w10010_78657",
+      "created": 1699922101644,
+      "modified": 1699922117348
+    },
+    "w10012_36319": {
+      "id": "w10012_36319",
+      "type": "ToggleButton",
+      "name": "Image Toggle",
+      "x": 2087,
+      "y": 1187,
+      "w": 245,
+      "h": 287,
+      "z": 11,
+      "props": {
+        "isImageToggle": true,
+        "label": "",
+        "active": false
+      },
+      "has": {
+        "backgroundColor": true,
+        "border": true,
+        "backgroundImage": true,
+        "onclick": true
+      },
+      "actions": {},
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderTopRightRadius": 0,
+        "borderTopLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderBottomLeftRadius": 0,
+        "borderTopWidth": 0,
+        "borderBottomWidth": 0,
+        "borderRightWidth": 0,
+        "borderLeftWidth": 0,
+        "borderTopColor": "#333333",
+        "borderBottomColor": "#333333",
+        "borderRightColor": "#333333",
+        "borderLeftColor": "#333333",
+        "background": "#ffffff",
+        "fontSize": 14,
+        "textAlign": "center",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "valign": "top",
+        "verticalAlign": "middle"
+      },
+      "active": {
+        "color": "#ffffff",
+        "background": "#333333"
+      },
+      "created": 1699922240841,
+      "modified": 1699922243908
+    },
+    "w10013_15576": {
+      "type": "Label",
+      "name": "Label 1",
+      "x": 2092,
+      "y": 1271,
+      "w": 254,
+      "h": 103,
+      "z": 12,
+      "props": {
+        "label": "Maps"
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      },
+      "style": {
+        "fontSize": "Auto",
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "textAlign": "left",
+        "letterSpacing": 0,
+        "lineHeight": 1,
+        "color": "#333333",
+        "textShadow": null
+      },
+      "id": "w10013_15576",
+      "created": 1699922248234,
+      "modified": 1699922255257
+    }
+  },
+  "lines": {},
+  "groups": {},
+  "templates": {},
+  "designtokens": {},
+  "lastUUID": 10014,
+  "lastUpdate": 1699919612887,
+  "created": 1699919612887,
+  "startScreen": "",
+  "grid": {
+    "w": 8,
+    "h": 8,
+    "style": "line",
+    "color": "#cecece",
+    "visible": false,
+    "enabled": false
+  },
+  "domain": "Quant-UX.com",
+  "screenCount": 2,
+  "widgetCount": 11,
+  "lastCategory": "WireFrame",
+  "isPublic": false,
+  "parent": "6552b3f7ecc914091d23d13a",
+  "id": "6552b6fcecc914091d23d393"
+}
